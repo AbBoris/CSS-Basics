@@ -1,12 +1,12 @@
-body {
+.page {
 	font-family: Arial, sans-serif;
 }
 
-table {
+.tbl {
 	border-collapse: collapse;
 }
 
-table th {
+.tbl__th {
 	color: #8190a0;
 	font-size: 0.7em;
 	padding: 1.5em 1.3em;
@@ -15,23 +15,23 @@ table th {
 	width: 25%;
 }
 
-table td {
+.tbl__td {
 	color: #5B7085;
 	font-size: 0.75em;
 	padding: 1.7em 1.3em;
 }
 
-table tr {
+.tbl__tr {
 	background-color: #f2f6fa;
 }
 
-table tr:nth-child(odd) {
+.tbl__tr:nth-child(odd) {
 	background-color: #e3eaf3;
 }
 
 
 
-table .sorted-down::after {
+.tbl__th_sorted-down::after {
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-top: 6px solid;
@@ -43,7 +43,7 @@ table .sorted-down::after {
 	width: 0;
 }
 
-table .sorted-up::after {
+.tbl__th_sorted-up::after {
 	border-bottom: 6px solid;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;

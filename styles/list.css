@@ -1,8 +1,9 @@
-li {
+.custom-list__item {
 	list-style-type: none;
 	line-height: 22px;
 }
-li:before {
+
+.custom-list__item:before {
 	content: url("https://cdn3.iconfinder.com/data/icons/iconic-1/32/star-16.png");
 	margin-right: 10px;
 }
